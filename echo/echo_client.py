@@ -26,5 +26,5 @@ s.connect((host,port))
 s.send('Hello, world') 
 data = s.recv(size) 
 s.close() 
-print 'from (%s,%s): %s' % (host, port, data)
+print 'from (%s,%s) %s' % (host, port, data)
 
